@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Book Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      font-size: 28px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .buttons {
+      margin-bottom: 30px;
+    }
+
+    .buttons a {
+      margin: 8px;
+      padding: 12px 20px;
+      background-color: #00b4d8;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #0077b6;
+    }
+
+    .book-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .book-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 15px;
+      margin: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      width: 220px;
+    }
+
+    .book-card img {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .book-title {
+      font-weight: bold;
+      margin-top: 10px;
+      color: #03045e;
+    }
+
+    .book-author {
+      color: #555;
+      font-size: 14px;
+    }
+
+    footer {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>📚 Online Book Store</header>
+
+  <div class="container">
+    <h2>📂Welcome to my book store</h2>
+    <div class="buttons">
+      <a href="leadership.html">Leadership</a>
+      <a href="business.html">Business</a>
+      <a href="motivation.html">Motivation</a>
+      <a href="change-password.html">Change Password</a>
+      <a href="login.html">Login</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <h2>📖 Popular Books</h2>
+    <div class="book-section">
+      <div class="book-card">
+        <img src="image1.jpeg" alt="Warren Bennis">
+        <div class="book-title">On Becoming a Leader</div>
+        <div class="book-author">Warren Bennis</div>
+      </div>
+      <div class="book-card">
+        <img src="image2.jpeg" alt="Dhirubhai Ambani">
+        <div class="book-title">Dhirubhai Ambani: Against All Odds</div>
+        <div class="book-author">A.G. Krishnamurthy</div>
+      </div>
+      <div class="book-card">
+        <img src="image3.jpeg" alt="The First 90 Days">
+        <div class="book-title">The First 90 Days</div>
+        <div class="book-author">Michael D. Watkins</div>
+      </div>
+      <div class="book-card">
+        <img src="image4.jpeg" alt="Hone Your Leadership Skills">
+        <div class="book-title">Hone Your Leadership Skills</div>
+        <div class="book-author">R. K. Sahu</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>&copy; 2025 Online Book Store. All rights reserved.</footer>
+
+</body>
+</html>
